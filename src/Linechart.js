@@ -7,7 +7,7 @@ function LineChart() {
       {
         label: 'First dataset',
         data: [33, 53, 85, 41, 44, 65],
-        fill: true,
+        fill: false,
         backgroundColor: 'rgba(75,192,192,0.2)',
         borderColor: 'rgba(75,192,192,1)',
       },
@@ -23,7 +23,7 @@ function LineChart() {
     plugins: {
       title: {
         display: true,
-        text: 'Line Chart',
+        text: 'Time-in/out',
         color: 'blue',
         font: {
           size: 34,

@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css';
-import DoughnutChart from './Donught.js';
-import LineChart from './Linechart.js';
-import BarChart from './barChart';
+import DoughnutChart from './Components/Donught.js';
+import LineChart from './Components/Linechart.js';
+import BarChart from './Components/barChart';
 export default function App() {
   return (
     <div className='chart-align' >

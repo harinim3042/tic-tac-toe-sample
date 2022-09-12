@@ -26,15 +26,13 @@ const options = {
     plugins: {
         title: {
             display: true,
+           
             text: 'Doughnut Chart',
             color:'blue',
             font: {
                 size:34
             },
-            padding:{
-                top:30,
-                bottom:30
-            },
+           
             responsive:true,
             animation:{
                 animateScale: true,
@@ -44,7 +42,7 @@ const options = {
     
 }
     return (
-        <div>
+        <div >
            <Doughnut data={data} options={options} />
         </div>
     )

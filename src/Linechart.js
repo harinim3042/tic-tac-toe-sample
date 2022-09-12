@@ -8,7 +8,7 @@ function LineChart() {
         label: 'First dataset',
         data: [33, 53, 85, 41, 44, 65],
         fill: false,
-        backgroundColor: 'rgba(75,192,192,0.2)',
+       
         borderColor: 'rgba(75,192,192,1)',
       },
       {
@@ -21,6 +21,7 @@ function LineChart() {
   };
   const options = {
     plugins: {
+      
       title: {
         display: true,
         text: 'Time-in/out',
@@ -28,10 +29,7 @@ function LineChart() {
         font: {
           size: 34,
         },
-        padding: {
-          top: 30,
-          bottom: 30,
-        },
+      
         responsive: true,
         animation: {
           animateScale: true,
@@ -39,6 +37,7 @@ function LineChart() {
         },
       },
     },
+  
   };
   return (
     <div>
